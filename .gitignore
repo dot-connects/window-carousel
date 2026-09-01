@@ -1,0 +1,47 @@
+# superpowers brainstorming visual companion (local mockups, not source)
+.superpowers/
+
+# Claude Code skills-CLI install artifacts (session tooling, not app source)
+.agents/
+.claude/
+skills-lock.json
+
+# local spikes / scratch (never commit)
+scratchpad/
+
+# local rollback backups
+*.bak-*
+
+# --- .NET ---
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+project.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+TestResults/
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+
+# --- Editors ---
+.idea/
+*.swp
+.DS_Store
+
+# --- env / secrets ---
+.env
+*.pfx
+appsettings.*.local.json
