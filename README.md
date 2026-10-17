@@ -31,4 +31,4 @@ C# / .NET 8 + WPF. Provider layer (`SystemProvider` / `AiUsageProvider` / `ViewP
 `EventProvider`) → immutable `AppState` → Router state machine → `WindowController` (the only
 component that touches foreign windows). Event transport: a localhost WebSocket server.
 
-Part of [DD-PLAY-AI](https://github.com/DD-PLAY-AI).
+Part of [D:OT](https://github.com/dot-connects).
